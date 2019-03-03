@@ -11,6 +11,15 @@ module.exports = {
   head: [
 
   ],
+  plugins: [
+    '@vuepress/active-header-links',
+    '@vuepress/back-to-top',
+    '@vuepress/medium-zoom',
+    '@vuepress/back-to-top',
+    '@vuepress/nprogress',
+    '@vuepress/pwa',
+    'vuepress-plugin-reading-time',
+  ],
   markdown: {
     // https://www.npmjs.com/package/markdown-it-linkify-images
     lineNumbers: true,
@@ -46,9 +55,6 @@ module.exports = {
         ]
       }
     ],
-    sidebar: {
-
-    },
     search: true,
     lastUpdated: 'Last Updated',
     searchMaxSuggestions: 10,
@@ -58,7 +64,17 @@ module.exports = {
     // docsDir: '',
     // docsBranch: 'master',
     editLinks: true,
-    editLinkText: '帮助我们改善此页面！'
+    editLinkText: '帮助我们改善此页面！',
+    displayAllHeaders: true,
+    sidebar: 'auto',
+    serviceWorker: {
+      // updatePopup: true // Boolean | Object, 默认值是 undefined.
+      // 如果设置为 true, 默认的文本配置将是: 
+      updatePopup: { 
+         message: 'New content is available.', 
+         buttonText: 'Refresh' 
+      }
+    }
   },
 }
 
