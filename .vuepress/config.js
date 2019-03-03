@@ -37,7 +37,14 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-
+      {
+        text: '前端资源',
+        items: [
+          { text: '谷歌插件', link: '/resources/chrome-extensions/' },
+          { text: '前端周刊', link: '/resources/FE-Weekly/' },
+          { text: 'flexbox资源', link: '/resources/flexbox/' },
+        ]
+      }
     ],
     sidebar: {
 
