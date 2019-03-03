@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
+    "deploy": "npm run build && gh-pages -d .vuepress/dist"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "ip": "^1.1.5",
+    "portfinder-sync": "^0.0.2",
+    "vuepress": "^0.14.9"
+  }
+}

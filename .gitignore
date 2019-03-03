@@ -1,3 +1,7 @@
+# custom
+yarn.lock
+dist
+
 # Logs
 logs
 *.log
