@@ -27,10 +27,11 @@ FE-weekly
 - Android博客周刊 http://www.androidblog.cn/
 
 
-## 早报 ##
+## 日报 ##
 - 微信公号 前端早读课
+- [D2 日报](https://daily.fairyever.com/post/)
 - Issues · sorrycc/zaobao https://github.com/sorrycc/zaobao/issues
-- wubaiqing/zaobao: 每日时报，以前端技术体系为主要分享课题。根据：文章、工具、新闻、视频几大板块作为主要分类。 https://github.com/wubaiqing/zaobao
+- wubaiqing/zaobao: 每日时报，以前端技术体系为主要分享课题。根据：文章、工具、新闻、视频几大板块作为主要分类。 https://github.com/wubaiqing/zaobao [项目背景 | 每日时报](https://wubaiqing.github.io/zaobao/)
 - zaobao · alibaba/ice Wiki https://github.com/alibaba/ice/wiki/zaobao 飞冰早报 http://fe.jskou.com/ice
 
 ## 待归档
