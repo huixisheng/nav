@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>flex-basis</title>
+</head>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+ul{ list-style:  none; }
+.demo{ width: 400px; margin: 20px auto; }
+.box{ width: 400px; margin: 20px auto; box-sizing: border-box; display: flex; background-color: #f0f0f0; }
+.box li { width: 100px; box-sizing: content-box; border: 1px solid #ddd; height: 60px; }
+.box li:nth-child(3){
+  flex:0 1 400px;
+}
+</style>
+<body>
+
+<div class="demo">
+  <ul class="box">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+  </ul>
+  <pre>
+    a: 100*1-100*(100+100+400+100-400)/(100+100+400+100)
+  </pre>
+</div>
+
+
+</body>
+</html>

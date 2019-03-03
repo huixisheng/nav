@@ -1,0 +1,18 @@
+[submodule "flex.css"]
+	path = flex.css
+	url = git@github.com:lzxb/flex.css.git
+[submodule "flexbox-patterns"]
+	path = flexbox-patterns
+	url = git@github.com:cjcenizal/flexbox-patterns.git
+[submodule "flex-layout-attribute"]
+	path = flex-layout-attribute
+	url = git@github.com:StefanKovac/flex-layout-attribute.git
+[submodule "flex-layout"]
+	path = flex-layout
+	url = git@github.com:Coffcer/flex-layout.git
+[submodule "sass-flex-mixin"]
+	path = sass-flex-mixin
+	url = git@github.com:mastastealth/sass-flex-mixin.git
+[submodule "flexbugs"]
+	path = flexbugs
+	url = git@github.com:philipwalton/flexbugs.git
